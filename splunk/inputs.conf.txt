@@ -1,0 +1,26 @@
+[default]
+host = WIN10
+
+# 1. Sysmon Logs -> sysmon_index
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+disabled = 0
+index = sysmon_index
+renderXml = 1
+
+# 2. Security Logs -> sysmon_index
+[WinEventLog://Security]
+disabled = 0
+index = sysmon_index
+renderXml = 1
+
+# 3. System Logs -> sysmon_index
+[WinEventLog://System]
+disabled = 0
+index = sysmon_index
+renderXml = 1
+
+# 4. Application Logs -> sysmon_index
+[WinEventLog://Application]
+disabled = 0
+index = sysmon_index
+renderXml = 1
