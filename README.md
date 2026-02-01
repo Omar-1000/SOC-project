@@ -207,4 +207,3 @@ Key focus areas:
 
 ---
 
-## Repository Structure
