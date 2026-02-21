@@ -206,4 +206,5 @@ Key focus areas:
 - File modification behavior
 
 ---
-
+## Author
+Omar Ayesh – Cybersecurity Student (2026)
